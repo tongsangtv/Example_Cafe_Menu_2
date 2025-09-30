@@ -3,6 +3,8 @@ body {
   font-family: "Times New Roman", Times, serif;
   background: white;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 header {
   text-align: center;
@@ -17,10 +19,7 @@ header h1 {
 }
 nav {
   background: #f6b7c0;
-  padding-left: 180px;
-  padding-right: 180px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   display: flex;
   align-items: center;
 }
@@ -30,6 +29,9 @@ nav a {
   color: #4d4d4d;
   padding: 0 12px;
   border-right: 1px solid #4d4d4d;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
 }
 nav a:first-child {
   font-size: 18px;
@@ -38,7 +40,7 @@ nav a:last-child {
   border: none;
 }
 nav .search {
-  margin-left: auto;
+  margin-left: 15px;
   display: flex;
   align-items: center;
 }
@@ -53,6 +55,9 @@ nav button {
   background: #fff;
   border: 1px solid #999;
   cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
 }
 .container {
   display: flex;
@@ -88,7 +93,7 @@ nav button {
   font-size: 20px;
   padding: 4px;
   margin: 12px 0;
-  letter-spacing: 3px;
+  letter-spacing: 15px;
 }
 ul {
   margin-top: 5px;
@@ -166,4 +171,12 @@ footer {
   padding: 10px;
   font-style: italic;
   font-weight: bold;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f6b7c0;
 }
