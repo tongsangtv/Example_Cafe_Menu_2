@@ -17,7 +17,10 @@ header h1 {
 }
 nav {
   background: #f6b7c0;
-  padding: 6px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
 }
@@ -42,6 +45,7 @@ nav .search {
 nav input[type="text"] {
   padding: 3px;
   border: 1px solid #999;
+  display: flex;
 }
 nav button {
   padding: 3px 10px;
@@ -58,7 +62,7 @@ nav button {
   width: 180px;
 }
 .sidebar button {
-  display: block;
+  display: flex;
   width: 100%;
   padding: 8px;
   margin-bottom: 5px;
