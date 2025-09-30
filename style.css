@@ -11,6 +11,7 @@ header {
   padding: 15px;
 }
 header h1 {
+  justify-content: center;
   font-style: italic;
   font-size: 28px;
   color: brown;
@@ -176,6 +177,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   background-color: #f6b7c0;
 }
