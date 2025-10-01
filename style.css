@@ -65,7 +65,7 @@ nav button {
   margin: 15px;
 }
 .sidebar {
-  width: 180px;
+  width: 200px;
 }
 .sidebar button {
   display: flex;
@@ -95,6 +95,8 @@ nav button {
   padding: 4px;
   margin: 12px 0;
   letter-spacing: 15px;
+  width: 500px;
+  text-align: center;
 }
 ul {
   margin-top: 5px;
@@ -109,18 +111,22 @@ ul li {
 }
 .info-form {
   margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
 }
 .info-form .section-title {
-  text-align: left;
+  text-align: center;
   font-size: 18px;
 }
 .info-form input,
 .info-form select,
 .info-form textarea {
   width: 45%;
-  padding: 6px;
+  padding: 4px;
   margin: 6px 2%;
-  border: 1px solid #999;
+  border: 2px solid #999;
   border-radius: 2px;
   font-family: "Times New Roman", Times, serif;
 }
@@ -129,8 +135,10 @@ ul li {
   height: 70px;
 }
 .radio {
-  margin-right: 80%;
-  margin-block: 2%;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
 }
 .info-form button {
   padding: 6px 20px;
@@ -141,7 +149,8 @@ ul li {
   font-weight: bold;
 }
 .events {
-  width: 260px;
+  width: 250px;
+  height: fit-content;
   background: black;
   color: white;
   padding: 10px;
