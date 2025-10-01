@@ -1,177 +1,196 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
-    <title>Example Cafe Menu</title>
-  </head>
-  <body>
-    <header>
-      <h1>EXAMPLE CAFE MENU</h1>
-    </header>
-    <div class="header">
-      <nav>
-        <a href="#"
-          ><img src="/img/icons8-home-50.png" alt="Home" width="20px"
-        /></a>
-        <a href="#"><span style="color: #fff">STARTER</span></a>
-        <a href="#"><span style="color: #fff">MAIN COURSES</span></a>
-        <a href="#"><span style="color: #fff">DESSERTS</span></a>
-        <div class="search">
-          <input type="text" />
-          <button>Go</button>
-        </div>
-      </nav>
-    </div>
-    <div class="container">
-      <div class="sidebar">
-        <button><span style="color: #fff">Cafe Latte</span></button>
-        <button><span style="color: #fff">Capuchino</span></button>
-        <button><span style="color: #fff">Ocean Blue</span></button>
-        <button><span style="color: #fff">Ice-cream Cafe</span></button>
-        <button><span style="color: #fff">Order Online</span></button>
-        <img
-          src="/img/company.png"
-          alt="group"
-          style="box-shadow: #f6b7c0 5px 5px 3px"
-        />
-      </div>
-      <div class="content">
-        <div class="section-title">
-          <span style="color: brown">Starter</span>
-        </div>
-        <ul>
-          <li>
-            Chesnut and Mushroom Goujons
-            <span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(v)</span
-            >
-          </li>
-          <li>
-            Goat Cheese<span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(v)</span
-            >
-          </li>
-          <li>
-            <span style="color: orange; font-weight: bold"
-              >HONEY SOY CHICKEN KEBABS</span
-            ><span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(V)</span
-            >
-          </li>
-          <li>
-            Seafood Salad<span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(v)</span
-            >
-          </li>
-        </ul>
-        <a href="#" class="back">Back to Top</a>
-
-        <div class="section-title">
-          <span style="color: brown">Desserts</span>
-        </div>
-        <ul>
-          <li>
-            Lemon Sorbet
-            <span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(v)</span
-            >
-          </li>
-          <li>
-            Chocolate Mud Pie<span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(v)</span
-            >
-          </li>
-          <li>
-            Pecan Pie<span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(v)</span
-            >
-          </li>
-          <li>
-            Selection of fine Cheeses from Around the World<span
-              style="color: red; text-decoration: underline; font-weight: bold"
-              >(v)</span
-            >
-          </li>
-        </ul>
-        <a href="#" class="back">Back to Top</a>
-
-        <div class="info-form">
-          <div class="section-title">
-            <span style="color: brown">INFORMATION</span>
-          </div>
-          <form>
-            <table style="width: 100%">
-              <tr>
-                <td>
-                  <input type="text" placeholder="First Name" />
-                </td>
-                <td>
-                  <input type="text" placeholder="Last Name" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <input type="email" placeholder="Email" />
-                </td>
-                <td>
-                  <input type="tel" placeholder="Telephone" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <select>
-                    <option>USA</option>
-                    <option>Vietnam</option>
-                    <option>UK</option>
-                  </select>
-                </td>
-                <td colspan="2">
-                  <div class="radio">
-                    <input type="radio" name="type" />Vietnamese
-                    <input type="radio" name="type" />Foreigner
-                  </div>
-                </td>
-              </tr>
-            </table>
-            <textarea placeholder="Comment"></textarea>
-            <br />
-            <button type="submit">Submit</button>
-            <button type="reset">Cancel</button>
-          </form>
-        </div>
-      </div>
-
-      <div class="events">
-        <h2>Events</h2>
-        <h3>Regular Meetings</h3>
-        <img src="/img/meeting.png" alt="meeting" />
-        <p>
-          Host your regular team meetings or activities in the comfort of your
-          own private room.
-          <a href="#">Read more...</a>
-        </p>
-
-        <h3>Product Launches</h3>
-        <img src="/img/launch.png" alt="launch" />
-        <p>
-          Launch your product with ease in a space that truly fits its image.
-          <a href="#">Read more...</a>
-        </p>
-      </div>
-    </div>
-    <footer>
-      <span style="color: #fff"
-        >ABC Company © - 12345678 - abccoffee@gmail.com</span
-      >
-    </footer>
-  </body>
-</html>
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  text-align: center;
+  padding: 15px;
+}
+header h1 {
+  justify-content: center;
+  font-style: italic;
+  font-size: 28px;
+  color: brown;
+  margin: 0;
+  text-shadow: #f6b7c0 5px 5px 3px;
+}
+nav {
+  background: #f6b7c0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4d4d4d;
+  padding: 0 12px;
+  border-right: 1px solid #4d4d4d;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+nav a:first-child {
+  font-size: 18px;
+}
+nav a:last-child {
+  border: none;
+}
+nav .search {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+nav input[type="text"] {
+  padding: 3px;
+  border: 1px solid #999;
+  display: flex;
+}
+nav button {
+  padding: 3px 10px;
+  margin-left: 3px;
+  background: #fff;
+  border: 1px solid #999;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  text-align: center;
+}
+.container {
+  display: flex;
+  margin: 15px;
+}
+.sidebar {
+  width: 250px;
+}
+.sidebar button {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  background: #f6b7c0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left;
+  border-radius: 10px;
+}
+.sidebar img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.content {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+.section-title {
+  background: #f6b7c0;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4px;
+  margin: 12px 0;
+  letter-spacing: 15px;
+  width: 100%;
+  text-align: center;
+}
+ul {
+  margin-top: 5px;
+}
+ul li {
+  margin: 4px 0;
+}
+.back {
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+}
+.info-form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+}
+.info-form .section-title {
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+}
+.info-form input,
+.info-form select,
+.info-form textarea {
+  width: 93%;
+  padding: 4px;
+  margin: 6px 2%;
+  border: 2px solid #999;
+  border-radius: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+.info-form textarea {
+  width: 100%;
+  height: 70px;
+}
+.radio {
+  display: inline-flex;
+  text-align: left;
+  width: auto;
+}
+.info-form button {
+  padding: 6px 20px;
+  margin: 10px 5px;
+  background: #eee;
+  border: 1px solid #666;
+  cursor: pointer;
+  font-weight: bold;
+}
+.events {
+  width: 250px;
+  height: fit-content;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+.events h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+.events h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.events img {
+  width: 100%;
+  margin: 5px 0;
+}
+.events p {
+  font-size: 14px;
+  margin-top: 0;
+}
+.events a {
+  color: lightblue;
+  text-decoration: none;
+}
+footer {
+  background: #f6b7c0;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6b7c0;
+}
