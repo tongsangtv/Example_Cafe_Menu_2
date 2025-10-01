@@ -130,7 +130,7 @@ ul li {
 .info-form input,
 .info-form select,
 .info-form textarea {
-  width: max-content;
+  width: 250%;
   padding: 4px;
   margin: 6px 2%;
   border: 2px solid #999;
