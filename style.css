@@ -119,7 +119,7 @@ ul li {
   margin-top: 25px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   width: 100%;
 }
 .info-form .section-title {
