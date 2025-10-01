@@ -92,7 +92,7 @@ nav button {
   align-items: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: auto;
+  width: 100%;
 }
 .section-title {
   background: #f6b7c0;
@@ -101,7 +101,7 @@ nav button {
   padding: 4px;
   margin: 12px 0;
   letter-spacing: 15px;
-  width: auto;
+  width: 100%;
   text-align: center;
 }
 ul {
