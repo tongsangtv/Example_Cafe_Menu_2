@@ -92,7 +92,7 @@ nav button {
   align-items: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 100%;
+  width: fit-content;
 }
 .section-title {
   background: #f6b7c0;
