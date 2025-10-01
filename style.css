@@ -125,6 +125,7 @@ ul li {
 .info-form .section-title {
   text-align: center;
   font-size: 18px;
+  width: auto;
 }
 .info-form input,
 .info-form select,
