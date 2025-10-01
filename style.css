@@ -142,7 +142,6 @@ ul li {
   height: 70px;
 }
 .radio {
-  padding-left: 5px;
   display: flex;
   flex-direction: row;
   text-align: left;
