@@ -142,8 +142,7 @@ ul li {
   height: 70px;
 }
 .radio {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
   text-align: left;
   width: 100%;
 }
