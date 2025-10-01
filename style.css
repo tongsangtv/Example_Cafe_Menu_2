@@ -87,6 +87,8 @@ nav button {
 .content {
   flex: 1;
   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
 }
 .section-title {
   background: #f6b7c0;
