@@ -144,7 +144,7 @@ ul li {
 .radio {
   display: inline-flex;
   text-align: left;
-  width: 100%;
+  width: 90%;
 }
 .info-form button {
   padding: 6px 20px;
