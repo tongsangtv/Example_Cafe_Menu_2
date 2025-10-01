@@ -145,6 +145,7 @@ ul li {
   display: inline-flex;
   text-align: left;
   width: auto;
+  padding: 2px 2px;
 }
 .info-form button {
   padding: 6px 20px;
