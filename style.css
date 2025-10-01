@@ -145,6 +145,7 @@ ul li {
   display: flex;
   flex-direction: row;
   text-align: left;
+  width: 100%;
 }
 .info-form button {
   padding: 6px 20px;
