@@ -101,7 +101,7 @@ nav button {
   padding: 4px;
   margin: 12px 0;
   letter-spacing: 15px;
-  width: auto;
+  width: 100%;
   text-align: center;
 }
 ul {
